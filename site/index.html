@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Documentação Calculadora</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">Documentação Calculadora</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#documentacao-da-calculadora" class="nav-link">Documentação da Calculadora</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#funcionalidades" class="nav-link">Funcionalidades</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#tecnologias-utilizadas" class="nav-link">Tecnologias Utilizadas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#como-usar" class="nav-link">Como Usar</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#exemplos-de-uso-da-calculadora" class="nav-link">Exemplos de Uso da Calculadora</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="documentacao-da-calculadora">Documentação da Calculadora</h1>
+<h3 id="a-calculadora-foi-desenvolvida-com-tres-modos-distintos"><strong>A calculadora foi desenvolvida com três modos distintos:</strong></h3>
+<ul>
+<li><strong>Modo Básico</strong>: realiza operações aritméticas simples como adição, subtração, multiplicação e divisão.</li>
+<li><strong>Modo Científico</strong>: oferece funções matemáticas avançadas como trigonometria, logaritmos, exponenciais, radiciação e fatoriais.</li>
+<li><strong>Modo Programador</strong>: voltado para desenvolvedores, permite operações em diferentes bases numéricas (binária, octal, decimal e hexadecimal), além de cálculos com bits e lógicas booleanas.</li>
+</ul>
+<h2 id="funcionalidades"><strong>Funcionalidades</strong></h2>
+<h3 id="a-calculadora-oferece-as-seguintes-funcionalidades">A calculadora oferece as seguintes funcionalidades:</h3>
+<h3 id="modo-padrao">Modo Padrão</h3>
+<ul>
+<li>Adição (<code>+</code>)</li>
+<li>Subtração (<code>-</code>)</li>
+<li>Multiplicação (<code>*</code>)</li>
+<li>Divisão (<code>/</code>)</li>
+<li>Porcentagem (<code>%</code>)</li>
+</ul>
+<h3 id="modo-cientifico">Modo Científico</h3>
+<ul>
+<li>Potenciação (<code>x^y</code>)</li>
+<li>Raiz quadrada (<code>√</code>)</li>
+<li>Logaritmos (base 10 e natural)</li>
+<li>Funções trigonométricas (seno, cosseno, tangente)</li>
+<li>Constantes (π, e)</li>
+<li>Fatorial, valor absoluto, etc.</li>
+</ul>
+<h3 id="modo-programador">Modo Programador</h3>
+<ul>
+<li>Conversão entre bases: Binário, Octal, Decimal e Hexadecimal</li>
+<li>Operações lógicas:</li>
+<li>AND (<code>&amp;</code>)</li>
+<li>OR (<code>|</code>)</li>
+<li>XOR (<code>^</code>)</li>
+<li>NOT (<code>~</code>)</li>
+</ul>
+<h2 id="tecnologias-utilizadas"><strong>Tecnologias Utilizadas</strong></h2>
+<h3 id="dependendo-da-implementacao-a-calculadora-pode-utilizar-diferentes-tecnologias-exemplo">Dependendo da implementação, a calculadora pode utilizar diferentes tecnologias. Exemplo:</h3>
+<ul>
+<li><strong>Front-end:</strong> HTML, CSS, JavaScript</li>
+<li><strong>Back-end (opcional):</strong> Node.js, Python, Java</li>
+<li><strong>Interface de Linha de Comando (CLI):</strong> Python, Bash</li>
+</ul>
+<h2 id="como-usar"><strong>Como Usar</strong></h2>
+<h3 id="web-desktop"><strong>Web / Desktop</strong></h3>
+<ol>
+<li>Acesse a interface da calculadora.</li>
+<li>Digite o primeiro número.</li>
+<li>Selecione a operação desejada.</li>
+<li>Digite o segundo número.</li>
+<li>Clique no botão de igual (=) ou pressione Enter.</li>
+<li>O resultado será exibido na tela.</li>
+</ol>
+<h2 id="exemplos-de-uso-da-calculadora">Exemplos de Uso da Calculadora</h2>
+<p>A seguir estão alguns cenários práticos simulando o uso da calculadora em modo <strong>Científico</strong>, <strong>Padrão</strong> e <strong>Programador</strong>, assim como na versão do Windows.</p>
+<hr />
+<h3 id="1-operacoes-basicas">1. <strong>Operações Básicas</strong></h3>
+<h4 id="adicao">Adição</h4>
+<pre><code>Entrada:
+5 + 3 =
+
+Saída:
+8
+</code></pre>
+<h4 id="subtracao">Subtração</h4>
+<pre><code>Entrada:
+10 - 4 =
+
+Saída:
+6
+</code></pre>
+<h4 id="multiplicacao">Multiplicação</h4>
+<pre><code>Entrada:
+7 * 6 =
+
+Saída:
+42
+</code></pre>
+<h4 id="divisao">Divisão</h4>
+<pre><code>Entrada:
+100 / 4 =
+
+Saída:
+25
+</code></pre>
+<hr />
+<h3 id="2-porcentagem">2. <strong>Porcentagem (%)</strong></h3>
+<h4 id="calcular-porcentagem">Calcular Porcentagem</h4>
+<pre><code>Entrada:
+50 + 10 % =
+
+Saída:
+55
+</code></pre>
+<blockquote>
+<p>Isso equivale a: 10% de 50 = 5 → 50 + 5 = 55</p>
+</blockquote>
+<h4 id="desconto-percentual">Desconto Percentual</h4>
+<pre><code>Entrada:
+80 - 20 % =
+
+Saída:
+64
+</code></pre>
+<blockquote>
+<p>Isso equivale a: 20% de 80 = 16 → 80 - 16 = 64</p>
+</blockquote>
+<hr />
+<h3 id="3-raiz-quadrada">3. <strong>Raiz Quadrada (√)</strong></h3>
+<h4 id="raiz-quadrada-de-um-numero">Raiz Quadrada de um Número</h4>
+<pre><code>Entrada:
+√ 144 =
+
+Saída:
+12
+</code></pre>
+<hr />
+<h3 id="4-funcoes-cientificas">4. <strong>Funções Científicas</strong></h3>
+<h4 id="potenciacao">Potenciação</h4>
+<pre><code>Entrada:
+2 x^y 5 =
+
+Saída:
+32
+</code></pre>
+<blockquote>
+<p>2 elevado a 5 = 32</p>
+</blockquote>
+<h4 id="logaritmo-na-base-10">Logaritmo na Base 10</h4>
+<pre><code>Entrada:
+log(100) =
+
+Saída:
+2
+</code></pre>
+<h4 id="seno-cosseno-e-tangente">Seno, Cosseno e Tangente</h4>
+<pre><code>Entrada:
+sin(90) =
+
+Saída:
+1
+</code></pre>
+<blockquote>
+<p>Considerando graus, sen(90°) = 1</p>
+</blockquote>
+<hr />
+<h3 id="5-uso-da-memoria-m-mr-mc-m-">5. <strong>Uso da Memória (M+, MR, MC, M-)</strong></h3>
+<h4 id="armazenar-valor-na-memoria">Armazenar Valor na Memória</h4>
+<pre><code>Entrada:
+50 M+
+
+Saída:
+Memória: 50
+</code></pre>
+<h4 id="recuperar-valor-da-memoria">Recuperar Valor da Memória</h4>
+<pre><code>Entrada:
+MR
+
+Saída:
+50
+</code></pre>
+<h4 id="somar-ao-valor-da-memoria">Somar ao Valor da Memória</h4>
+<pre><code>Entrada:
+20 M+
+
+Saída:
+Memória: 70
+</code></pre>
+<h4 id="limpar-memoria">Limpar Memória</h4>
+<pre><code>Entrada:
+MC
+
+Saída:
+Memória: 0
+</code></pre>
+<hr />
+<h3 id="6-historico-de-operacoes">6. <strong>Histórico de Operações</strong></h3>
+<pre><code>Histórico:
+1. 5 + 3 = 8
+2. √144 = 12
+3. 2 x^y 5 = 32
+4. sin(90) = 1
+5. 50 M+ → Memória: 50
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-07-07 17:13:47.115644+00:00
+-->
